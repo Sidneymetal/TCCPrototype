@@ -1,0 +1,52 @@
+/* style.css */
+
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 80px;
+}
+
+.register-form h1 {
+    text-align: center;
+}
+
+.register-form div {
+    margin-bottom: 20px;
+}
+
+.register-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.register-form textarea {
+    height: 100px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #45a049;
+}

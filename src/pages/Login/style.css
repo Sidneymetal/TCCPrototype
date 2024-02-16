@@ -1,0 +1,64 @@
+.container {
+    text-align: center; /* Alinha o texto centralmente */
+    height: 100vh; /* Define a altura para 100% da altura da janela de visualização */
+    display: flex; /* Usa flexbox para alinhar o conteúdo centralmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.login-box {
+    background-color: #9cc4e4;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px outset  #000000;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o texto dentro da caixa de login */
+}
+
+.login-box h2 {
+    margin-top: 0; /* Remove a margem superior padrão do h2 */
+    font-size: 28px
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.input-group input {
+    width: calc(100% - 16px); /* Largura ajustada para compensar o padding */
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1b325f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.button-group button {
+    flex: 1; /* Para ocupar o mesmo espaço */
+}

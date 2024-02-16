@@ -1,3 +1,13 @@
-section {
-    background-color: blueviolet;
-}
+#mainFooter {
+    background-color: #1b325f; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    padding: 10px 1; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    position: fixed; /* Posição fixa na parte inferior */
+    left: 0; /* Alinhar à esquerda */
+    bottom: 0; /* Alinhar na parte inferior */
+    width: 100%; /* Largura total */
+    z-index: 1000; /* Definir um índice Z alto para garantir que o footer esteja sempre sobreposto */
+    margin: 0; /* Margem removida */
+  }
+  
