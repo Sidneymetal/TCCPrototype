@@ -1,9 +1,13 @@
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
 import './style.css'
 
 function Login() {
     return (
         <div>
-            <h1>Login</h1>
+            <Header />
+            <h1>Login</h1>           
+            <Footer />
         </div>
     )
 }

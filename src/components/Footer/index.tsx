@@ -3,7 +3,7 @@ import './style.css'
 function Footer() {
     return (
         <section>
-            <h1>Todos os direitos reservados @Allife</h1>
+            <h2>Todos os direitos reservados</h2>
         </section>
     )
 }
