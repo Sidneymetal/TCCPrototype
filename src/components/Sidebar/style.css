@@ -10,6 +10,7 @@
     box-sizing: border-box; /* Inclui padding e borda na largura total */
     display: flex; /* Usa flexbox para alinhar verticalmente */
     flex-direction: column; /* Alinha os itens verticalmente */
+    flex: 1;
 }
 
 .sidebar h3 {
@@ -17,4 +18,14 @@
     font-weight: bold; /* Define a negrito */
     margin: 0; /* Remove a margem padrão dos elementos h3 */
     margin-top: 35px
+}
+.sidebarConfiguracao{
+    position: fixed;
+    bottom: 0;
+    margin-bottom:82px;
+}
+.sidebarlink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Tamanho do texto */
 }
