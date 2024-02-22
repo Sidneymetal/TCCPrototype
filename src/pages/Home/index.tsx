@@ -10,7 +10,7 @@ function Home() {
             
             <Sidebar/>
             <div className='divImagem'>
-            <img src='https://i.imgur.com/5y5F0Ka.jpeg ' alt="Imagem1" width={1000} height={780}/>
+            <img src='https://i.imgur.com/5y5F0Ka.jpeg ' alt="Imagem1" width={1000} height={750}/>
 
             </div>
             <Footer/>

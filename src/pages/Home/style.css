@@ -1,9 +1,14 @@
-.divImagem{ /*Centralização da div que expõem imagem */
-    width:500px;/*Largura da div da imagem */
-    height:660px;/*Altura da div da imagem */
-    position: relative;
-    margin-top: 80px; /* Distancia do "Header"*/
-    margin-left: 850px; /* Distancia do "Footer" */
-    
-    /* imagem está com tamnho predefinido na source*/
+.divImagem {
+    position: absolute;
+    top: 50%; /* Posiciona a div no centro verticalmente */
+    left: 50%; /* Posiciona a div no centro horizontalmente */
+    transform: translate(-50%, -50%); /* Move a div de volta metade de sua largura e altura para centralizá-la */
+}
+
+/* responsividade */
+@media (max-width: 768px) {
+    .divImagem {
+        width: 80%; /* diminuindo a tela para 768px */
+        height: auto; /* mantendo a proporção */
+    }
 }
