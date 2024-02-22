@@ -7,8 +7,12 @@ function Home() {
     return (
         <div>
             <Header/>
-            <h1>Home</h1>
+            
             <Sidebar/>
+            <div className='divImagem'>
+            <img src='https://i.imgur.com/5y5F0Ka.jpeg ' alt="Imagem1" width={1000} height={780}/>
+
+            </div>
             <Footer/>
         </div>
     )
